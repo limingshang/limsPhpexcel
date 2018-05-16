@@ -1,4 +1,4 @@
-# limspro
+# 此插件主要提供curl post  get方法
     /**
      * get
      *
@@ -40,4 +40,3 @@
         curl_close($curl);
         return $ret;
     }
-# 此插件主要提供curl post  get方法
