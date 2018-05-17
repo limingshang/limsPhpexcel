@@ -15,7 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Curl\\": "src/"
+            "Curl\\": "src/Curl/",
+            "LPhpExcel\\": "src/LPhpExcel/"
         }
     }
 }
