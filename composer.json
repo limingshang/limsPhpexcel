@@ -15,8 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Curl\\Curl\\": "src/Curl",
-            "Curl\\LPhpExcel\\": "src/LPhpExcel"
+            "lims\\Curl\\": "src/Curl",
+            "lims\\LPhpExcel\\": "src/LPhpExcel"
         }
     }
 }

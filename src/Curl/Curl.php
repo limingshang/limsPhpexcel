@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Curl;
+namespace lims\Curl;
 
 /**
  * Class Curl
