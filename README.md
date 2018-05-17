@@ -1,4 +1,7 @@
-# Curl类 此插件主要提供curl post  get方法
+
+
+### 安装地址 composer require lims/curl dev-master
+### Curl类 此插件主要提供curl post  get方法
     /**
      * get
      *
