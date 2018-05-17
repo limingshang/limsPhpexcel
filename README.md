@@ -2,6 +2,23 @@
 
 ### 安装地址 composer require lims/curl dev-master
 ### Curl类 此插件主要提供curl post  get方法
+    //引用事例
+    public $lphpexcel,$curl;
+    public function __construct()
+    {
+        $this->lphpexcel=new LPhpExcel();
+    }
+
+    public function index()
+    {
+        $this->lphpexcel->explode_data('数据','数据',['id','name'],[[1,'lims'],[2,'jinlu']]);
+    }
+    public function implode_data()
+    {
+        $data=$this->lphpexcel->importExecl("/web/tp5/public/sj.xls");
+        print_r($data);die;
+    }
+# 代码解释
     /**
      * get
      *
