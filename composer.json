@@ -3,6 +3,7 @@
     "description": "php curl",
     "license": "MIT",
     "type": "library",
+    "version": "1.0.0-dev",
     "authors": [
         {
             "name": "lims",
@@ -11,8 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0",
-        "phpoffice/phpexcel": "^1.1"
+        "php": ">=5.3.0"
     },
     "autoload": {
         "psr-4": {
