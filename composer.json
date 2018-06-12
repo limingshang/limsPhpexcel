@@ -1,6 +1,6 @@
 {
-    "name": "limsphpexcel/phpexcel",
-    "description": "php phpexcel",
+    "name": "limsphpexcel/limsphpexcel",
+    "description": "php limsphpexcel",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LPhpExcel\\": "src/"
+            "limsphpexcel\\": "src/"
         }
     }
 }
