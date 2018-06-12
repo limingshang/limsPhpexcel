@@ -2,7 +2,7 @@
 /**
  * 处理phpexcel导出数据
  */
-namespace lims\LPhpExcel;
+namespace phpexcel;
 
 class LPhpExcel{
     //定义基础变量
